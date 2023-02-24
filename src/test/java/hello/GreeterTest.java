@@ -10,8 +10,8 @@ public class GreeterTest {
   private Greeter greeter = new Greeter();
 
   @Test
-  public void greeterSaysHello1() {
-    assertThat(greeter.sayHello1(), containsString("Bye"));
+  public void greeterSaysHello() {
+    assertThat(greeter.sayHello(), containsString("Bye"));
   }
 
 }
